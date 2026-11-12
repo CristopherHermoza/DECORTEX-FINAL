@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | DECORTEX</title>
+  <meta name="description" content="Pide tu cotización de cortinas: teléfono, WhatsApp, correo y formulario.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <!-- Animación 1: menú plegable (collapse) que se despliega en móvil -->
+    <nav class="navbar navbar-expand-md contenedor" aria-label="Principal">
+      <a href="index.html" class="logo">DECORTEX<span>TEXTILES PARA EL HOGAR</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="menuPrincipal">
+        <ul class="navbar-nav menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="portada portada-interior">
+    <div class="contenedor portada-texto">
+      <h1>Contacto</h1>
+      <p>Cuéntanos qué ambiente quieres vestir. Respondemos el mismo día.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor grilla-2">
+
+      <!-- ===== Formulario =====
+           Este formulario todavía no envía nada: HTML solo arma la
+           interfaz. Cuando quieras que llegue a tu correo, puedes usar
+           un servicio como Formspree en el atributo action. -->
+      <div>
+        <h2>Pide tu cotización</h2>
+        <form class="formulario" action="#" method="post">
+
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required>
+
+          <label for="telefono">Teléfono o WhatsApp</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="900 000 000" required>
+
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+
+          <label for="ambiente">Ambiente</label>
+          <select id="ambiente" name="ambiente">
+            <option value="sala">Sala</option>
+            <option value="dormitorio">Dormitorio</option>
+            <option value="comedor">Comedor o cocina</option>
+            <option value="bano">Baño</option>
+            <option value="oficina">Oficina</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <label for="mensaje">Medidas y detalles</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Ancho y alto de la ventana, tela que te gustaría, fecha en que la necesitas."></textarea>
+
+          <button type="submit" class="boton">Enviar solicitud</button>
+        </form>
+      </div>
+
+      <!-- ===== Datos de contacto ===== -->
+      <div class="datos-contacto">
+        <h2>Otras formas de escribirnos</h2>
+
+        <p>
+          <span class="dato-titulo">WhatsApp</span>
+          <a href="https://wa.me/51900000000">+51 900 000 000</a>
+        </p>
+
+        <p>
+          <span class="dato-titulo">Correo</span>
+          <a href="mailto:hola@decortex.pe">hola@decortex.pe</a>
+        </p>
+
+        <p>
+          <span class="dato-titulo">Tienda y taller</span>
+          Av. Ejemplo 123, Tingo María, Huánuco
+        </p>
+
+        <p>
+          <span class="dato-titulo">Horario</span>
+          Lunes a viernes de 9:00 a 19:00<br>
+          Sábados de 9:00 a 14:00
+        </p>
+
+        <div class="foto foto-alta"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="franja">
+    <div class="contenedor">
+      <h2>¿Prefieres que te llamemos?</h2>
+      <p>Déjanos tu número en el formulario y coordinamos la visita de medición.</p>
+      <a href="https://wa.me/51900000000" class="boton">Abrir WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <div>
+          <h3>DECORTEX</h3>
+          <p>Confección, venta e instalación de cortinas y textiles para el hogar.</p>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul class="lista-limpia">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p>
+            Av. Ejemplo 123, Tingo María<br>
+            +51 900 000 000<br>
+            <a href="mailto:hola@decortex.pe">hola@decortex.pe</a>
+          </p>
+        </div>
+      </div>
+      <p class="pie-final">© 2026 DECORTEX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

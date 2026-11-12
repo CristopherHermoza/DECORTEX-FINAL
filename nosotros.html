@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros | DECORTEX</title>
+  <meta name="description" content="Taller familiar de confección de cortinas y textiles para el hogar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <!-- Animación 1: menú plegable (collapse) que se despliega en móvil -->
+    <nav class="navbar navbar-expand-md contenedor" aria-label="Principal">
+      <a href="index.html" class="logo">DECORTEX<span>TEXTILES PARA EL HOGAR</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="menuPrincipal">
+        <ul class="navbar-nav menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="portada portada-interior">
+    <div class="contenedor portada-texto">
+      <h1>Nosotros</h1>
+      <p>Un taller pequeño donde cada pedido pasa por las mismas manos de principio a fin.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor grilla-2">
+      <div>
+        <h2>El taller</h2>
+        <p>DECORTEX empezó con una máquina de coser y pedidos de vecinos que necesitaban cortinas para ventanas de medidas raras, de esas que nunca calzan con lo que venden hecho.</p>
+        <p>Hoy seguimos con la misma idea: medir bien, cortar bien y entregar a tiempo. No tercerizamos la confección, así que si algo sale mal sabemos exactamente dónde corregirlo.</p>
+      </div>
+      <div class="foto foto-alta"></div>
+    </div>
+  </section>
+
+  <section class="seccion seccion-arena">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">En qué creemos</h2>
+      <p class="bajada">Tres cosas que no negociamos.</p>
+
+      <div class="grilla-3">
+        <div>
+          <h3>Precio cerrado</h3>
+          <p>El monto que te damos incluye tela, riel, confección e instalación. No aparecen cobros después.</p>
+        </div>
+        <div>
+          <h3>Fechas reales</h3>
+          <p>Prometemos el plazo que podemos cumplir, aunque a veces sea más largo del que quisieras escuchar.</p>
+        </div>
+        <div>
+          <h3>Tela honesta</h3>
+          <p>Te decimos qué tela destiñe con el sol y cuál aguanta lavados, aunque nos convenga venderte la otra.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor grilla-2">
+      <div class="foto foto-alta"></div>
+      <div>
+        <h2>Dónde estamos</h2>
+        <p>Atendemos en tienda y a domicilio en Tingo María y alrededores. Para otras ciudades enviamos por agencia con guía de instalación.</p>
+        <ul class="lista-limpia">
+          <li>Lunes a viernes: 9:00 a 19:00</li>
+          <li>Sábados: 9:00 a 14:00</li>
+          <li>Domingos: cerrado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Animación 5: barras de progreso con rayas animadas =====
+       Los porcentajes son de EJEMPLO: cámbialos por los datos reales del taller. -->
+  <section class="seccion seccion-arena">
+    <div class="contenedor grilla-2">
+      <div>
+        <h2>Cómo lo medimos</h2>
+        <p>Al terminar cada pedido revisamos si se cumplió lo prometido: fecha, medidas e instalación. Estos son los resultados de nuestro taller.</p>
+      </div>
+      <div>
+        <div class="indicador-bloque">
+          <div class="indicador"><span>Pedidos entregados en la fecha acordada</span><span>95%</span></div>
+          <div class="progress" role="progressbar" aria-label="Pedidos entregados en la fecha acordada" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+          </div>
+        </div>
+
+        <div class="indicador-bloque">
+          <div class="indicador"><span>Instalaciones sin ajustes posteriores</span><span>90%</span></div>
+          <div class="progress" role="progressbar" aria-label="Instalaciones sin ajustes posteriores" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="indicador-bloque">
+          <div class="indicador"><span>Clientes que nos recomiendan</span><span>88%</span></div>
+          <div class="progress" role="progressbar" aria-label="Clientes que nos recomiendan" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 88%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="franja">
+    <div class="contenedor">
+      <h2>Visítanos en el taller</h2>
+      <p>Puedes ver y tocar las telas antes de decidir.</p>
+      <a href="contacto.html" class="boton">Ver cómo llegar</a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <div>
+          <h3>DECORTEX</h3>
+          <p>Confección, venta e instalación de cortinas y textiles para el hogar.</p>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul class="lista-limpia">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p>
+            Av. Ejemplo 123, Tingo María<br>
+            +51 900 000 000<br>
+            <a href="mailto:hola@decortex.pe">hola@decortex.pe</a>
+          </p>
+        </div>
+      </div>
+      <p class="pie-final">© 2026 DECORTEX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

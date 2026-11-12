@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | DECORTEX</title>
+  <meta name="description" content="Cortinas, rollers, persianas, sábanas, cortinas de ducha y fundas para muebles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <!-- Animación 1: menú plegable (collapse) que se despliega en móvil -->
+    <nav class="navbar navbar-expand-md contenedor" aria-label="Principal">
+      <a href="index.html" class="logo">DECORTEX<span>TEXTILES PARA EL HOGAR</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="menuPrincipal">
+        <ul class="navbar-nav menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="portada portada-interior">
+    <div class="contenedor portada-texto">
+      <h1>Productos</h1>
+      <p>Todo se confecciona a medida. Los precios dependen del ancho, el alto y la tela que elijas.</p>
+      <button type="button" class="boton boton-claro" data-bs-toggle="modal" data-bs-target="#modalMedidas">Cómo medir tu ventana</button>
+    </div>
+  </section>
+
+  <!-- ===== Cortinas ===== -->
+  <section class="seccion">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Cortinas</h2>
+      <p class="bajada">Para sala, dormitorio, comedor y oficina.</p>
+
+      <div class="grilla-3">
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortina blackout</h3>
+            <p>Bloquea la luz casi por completo. Ideal para dormitorios y salas con sol directo.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortina de lino</h3>
+            <p>Caída suave y luz filtrada. Se combina con blackout en doble riel.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Gasa y voile</h3>
+            <p>Tela ligera que da privacidad de día sin quitar claridad.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Roller screen</h3>
+            <p>Enrollable con cadena. Baja el reflejo en pantallas y deja ver hacia afuera.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Persiana horizontal</h3>
+            <p>Lamas de aluminio o madera, con regulación de ángulo.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortina romana</h3>
+            <p>Se recoge en pliegues. Buena opción para ventanas pequeñas y cocinas.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Baño ===== -->
+  <section class="seccion seccion-arena">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Baño</h2>
+      <p class="bajada">Telas impermeables, lavables a máquina.</p>
+
+      <div class="grilla-3">
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortina de ducha lisa</h3>
+            <p>Poliéster impermeable con tratamiento antihongos y ojales metálicos.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortina de ducha estampada</h3>
+            <p>Diseños neutros que combinan con mayólica clara u oscura.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Barras y accesorios</h3>
+            <p>Barras extensibles, ganchos y alfombras de baño a juego.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Cama y muebles ===== -->
+  <section class="seccion">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Cama y muebles</h2>
+      <p class="bajada">Medidas de 1, 1.5, 2 plazas, queen y king.</p>
+
+      <div class="grilla-3">
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Juego de sábanas</h3>
+            <p>Algodón peinado de 144 hilos: sábana, encimera y dos fundas.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cubrecamas y edredones</h3>
+            <p>Acolchados de temporada, en tonos neutros y lisos.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Fundas para muebles</h3>
+            <p>Forros para sofá, sillas de comedor y cojines decorativos.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Manteles</h3>
+            <p>Mantel, individuales y servilletas en la misma tela.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cojines decorativos</h3>
+            <p>Rellenos de fibra siliconada, con funda removible y cierre.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Rieles y soportes</h3>
+            <p>Rieles simples, dobles, barras de madera y ganchos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="franja">
+    <div class="contenedor">
+      <h2>Cotiza con tus medidas</h2>
+      <p>Envíanos el ancho y alto de tu ventana y la tela que te interesa.</p>
+      <a href="contacto.html" class="boton">Pedir cotización</a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <div>
+          <h3>DECORTEX</h3>
+          <p>Confección, venta e instalación de cortinas y textiles para el hogar.</p>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul class="lista-limpia">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p>
+            Av. Ejemplo 123, Tingo María<br>
+            +51 900 000 000<br>
+            <a href="mailto:hola@decortex.pe">hola@decortex.pe</a>
+          </p>
+        </div>
+      </div>
+      <p class="pie-final">© 2026 DECORTEX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Animación 4: ventana modal con desvanecido ===== -->
+  <div class="modal fade" id="modalMedidas" tabindex="-1" aria-labelledby="modalMedidasTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-4" id="modalMedidasTitulo">Cómo medir tu ventana</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <ol class="lista-pasos">
+            <li><strong>Ancho.</strong> Mide la ventana de borde a borde y suma 15 cm por lado para que la cortina cubra el marco al abrirse.</li>
+            <li><strong>Alto.</strong> Mide desde donde irá el riel, unos 10 cm sobre la ventana, hasta el piso. Resta 1 cm para que no roce.</li>
+            <li><strong>Roller.</strong> Si va dentro del marco, mide el ancho interior. Si va por fuera, mide el ancho exterior.</li>
+            <li><strong>Envíanos todo.</strong> Anota las medidas en centímetros y mándanos una foto de la ventana.</li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <a href="contacto.html" class="boton">Enviar mis medidas</a>
+          <button type="button" class="boton boton-claro" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DECORTEX | Cortinas y textiles para el hogar</title>
+  <meta name="description" content="Confección e instalación de cortinas, rollers, sábanas, cortinas de ducha y fundas para muebles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ===== Cabecera con el menú (se repite igual en todas las páginas) ===== -->
+  <header class="cabecera">
+    <!-- Animación 1: menú plegable (collapse) que se despliega en móvil -->
+    <nav class="navbar navbar-expand-md contenedor" aria-label="Principal">
+      <a href="index.html" class="logo">DECORTEX<span>TEXTILES PARA EL HOGAR</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="menuPrincipal">
+        <ul class="navbar-nav menu">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Animación 2: carrusel con transición de desvanecido ===== -->
+  <section id="portadaCarrusel" class="carousel slide carousel-fade portada" data-bs-ride="carousel" data-bs-interval="6000" aria-label="Destacados">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#portadaCarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Ir a la diapositiva 1"></button>
+      <button type="button" data-bs-target="#portadaCarrusel" data-bs-slide-to="1" aria-label="Ir a la diapositiva 2"></button>
+      <button type="button" data-bs-target="#portadaCarrusel" data-bs-slide-to="2" aria-label="Ir a la diapositiva 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="contenedor portada-texto">
+          <h1>Cortinas hechas a la medida de tu casa</h1>
+          <p>Tomamos las medidas en tu domicilio, confeccionamos en nuestro taller e instalamos. Sala, dormitorio, comedor y baño.</p>
+          <div class="acciones">
+            <a href="contacto.html" class="boton">Pedir medición gratis</a>
+            <a href="productos.html" class="boton boton-claro">Ver productos</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="contenedor portada-texto">
+          <h2 class="titulo-portada">Blackout para dormir de verdad</h2>
+          <p>Telas que frenan la luz de la calle y el sol de la mañana, con caída pareja y soportes reforzados.</p>
+          <div class="acciones">
+            <a href="productos.html" class="boton">Ver cortinas</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="contenedor portada-texto">
+          <h2 class="titulo-portada">Baño y ropa de cama a juego</h2>
+          <p>Cortinas de ducha impermeables, sábanas y fundas para muebles en la misma paleta que tus cortinas.</p>
+          <div class="acciones">
+            <a href="productos.html" class="boton">Ver catálogo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev d-none d-lg-flex" type="button" data-bs-target="#portadaCarrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next d-none d-lg-flex" type="button" data-bs-target="#portadaCarrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </section>
+
+  <!-- ===== Categorías principales ===== -->
+  <section class="seccion">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Qué hacemos</h2>
+      <p class="bajada">Cuatro líneas de trabajo, todas con tela elegida por ti.</p>
+
+      <div class="grilla-3">
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortinas y rollers</h3>
+            <p>Blackout, lino, gasa y rollers screen para sala, dormitorio y comedor.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Cortinas de ducha</h3>
+            <p>Telas impermeables y antihongos, con ojales metálicos y barra a medida.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="foto"></div>
+          <div class="tarjeta-texto">
+            <h3>Ropa de cama</h3>
+            <p>Juegos de sábanas, cubrecamas y fundas de almohada en algodón peinado.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Bloque de texto + imagen ===== -->
+  <section class="seccion seccion-arena">
+    <div class="contenedor grilla-2">
+      <div>
+        <h2>Del taller a tu ventana</h2>
+        <p>Trabajamos con medidas exactas, no con tamaños estándar. Eso evita que la cortina quede corta, que roce el piso o que deje pasar luz por los costados.</p>
+        <p>Cada pedido sale del taller con su barra, soportes y ganchos listos para instalar.</p>
+        <a href="servicios.html" class="boton boton-claro">Conocer el proceso</a>
+      </div>
+      <div class="foto foto-alta"></div>
+    </div>
+  </section>
+
+  <!-- ===== Ambientes ===== -->
+  <section class="seccion">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Ambiente por ambiente</h2>
+      <p class="bajada">Cada espacio necesita una tela distinta.</p>
+
+      <div class="grilla-3">
+        <div>
+          <h3>Sala</h3>
+          <p>Caída amplia en lino o poliéster texturado, con doble riel para combinar gasa y blackout.</p>
+        </div>
+        <div>
+          <h3>Dormitorio</h3>
+          <p>Blackout real para dormir con luz de calle o turnos de noche.</p>
+        </div>
+        <div>
+          <h3>Comedor y cocina</h3>
+          <p>Telas lavables y de secado rápido, resistentes al vapor y a la grasa.</p>
+        </div>
+        <div>
+          <h3>Baño</h3>
+          <p>Cortinas de ducha impermeables con refuerzo en los ojales.</p>
+        </div>
+        <div>
+          <h3>Oficina</h3>
+          <p>Rollers screen que bajan el brillo en las pantallas sin oscurecer el ambiente.</p>
+        </div>
+        <div>
+          <h3>Muebles</h3>
+          <p>Fundas para sofá, sillas y cojines en la misma línea de tela de tus cortinas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Llamada a la acción ===== -->
+  <section class="franja">
+    <div class="contenedor">
+      <h2>¿Tienes las medidas o prefieres que vayamos?</h2>
+      <p>Escríbenos por WhatsApp con una foto de tu ventana y te damos un precio el mismo día.</p>
+      <a href="contacto.html" class="boton">Escribir por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== Pie de página (se repite igual en todas las páginas) ===== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <div>
+          <h3>DECORTEX</h3>
+          <p>Confección, venta e instalación de cortinas y textiles para el hogar.</p>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul class="lista-limpia">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p>
+            Av. Ejemplo 123, Tingo María<br>
+            +51 900 000 000<br>
+            <a href="mailto:hola@decortex.pe">hola@decortex.pe</a>
+          </p>
+        </div>
+      </div>
+      <p class="pie-final">© 2026 DECORTEX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
