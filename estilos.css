@@ -8,7 +8,6 @@
    ========================================================= */
 
 /* ---------- 1. Variables de color y tipografía ---------- */
-/* Cambiar un color aquí lo cambia en todo el sitio. */
 :root {
   --pino: #2c3a34;        /* verde oscuro: textos y franjas */
   --salvia: #7d8f84;      /* verde medio: detalles */
@@ -96,8 +95,6 @@ textarea:focus-visible {
 }
 
 /* ---------- 3. Cabecera y menú (navbar de Bootstrap) ---------- */
-/* Bootstrap da el comportamiento: en pantallas chicas el menú se pliega
-   detrás del botón de hamburguesa. Aquí solo le damos el aspecto de DECORTEX. */
 .cabecera {
   border-bottom: 1px solid var(--arena);
   background-color: var(--hueso);
@@ -170,9 +167,6 @@ textarea:focus-visible {
 }
 
 /* ---------- 4. Portada (hero) ---------- */
-/* El fondo imita los pliegues de una cortina usando solo CSS.
-   Para poner una foto real: reemplaza el "repeating-linear-gradient"
-   por  background-image: url("../img/portada.jpg");  */
 .portada {
   background-color: var(--arena);
   background-image: repeating-linear-gradient(
@@ -204,8 +198,6 @@ textarea:focus-visible {
 .portada-interior h1 { font-size: 2.6rem; }
 
 /* ---------- 4b. Carrusel de la portada (Bootstrap) ---------- */
-/* min-height iguala la altura de las tres diapositivas para que la
-   página no "salte" cuando cambian. */
 .carousel .portada-texto {
   min-height: 580px;
   padding: 70px 0 80px;
@@ -273,9 +265,6 @@ textarea:focus-visible {
 
 .tarjeta p { font-size: 0.95rem; margin: 0; }
 
-/* Marcador de foto: se ve bien aunque todavía no subas imágenes.
-   Cuando tengas fotos, borra este div y usa:
-   <img src="img/sala.jpg" alt="Cortina de sala"> */
 .foto {
   height: 210px;
   background-color: var(--arena);
@@ -370,8 +359,6 @@ textarea:focus-visible {
 }
 
 /* ---------- 7b. Componentes de Bootstrap con la paleta de DECORTEX ---------- */
-/* Bootstrap guarda sus colores en variables que empiezan con --bs-.
-   Cambiando esas variables evitamos reescribir el estilo de cada componente. */
 
 /* Acordeón (preguntas frecuentes) */
 .accordion {
@@ -463,7 +450,6 @@ textarea:focus-visible {
 }
 
 /* ---------- 9. Versión móvil ---------- */
-/* Todo lo de adentro se aplica solo en pantallas de 760px o menos. */
 @media (max-width: 760px) {
   body { font-size: 16px; }
 
